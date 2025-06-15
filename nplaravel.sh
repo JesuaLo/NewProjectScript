@@ -1,7 +1,7 @@
 echo Introduce el nombre del proyecto:
 read proyecto
 
-composer create-project laravel/laravel $proyecto && 
+composer create-project laravel/laravel:^11 $proyecto && 
 cd $proyecto && 
 composer install && 
 npm install && 
